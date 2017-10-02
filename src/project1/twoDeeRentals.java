@@ -53,7 +53,7 @@ public class twoDeeRentals extends Application {
         addBtn.setText("Add item");
         removeBtn.setText("Remove Item");
 
-        field.setOnKeyPressed((KeyEvent e) -> {
+        field.setOnKeyPressed((KeyEvent e) -> {//just doing some testing here
             if (e.getCode() == KeyCode.ENTER) {
                 try {
                     field.clear();
